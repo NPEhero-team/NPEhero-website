@@ -56,6 +56,21 @@ img {
     font-weight: normal;
 }
 
-.button {
-    
+button {
+    font-family: "space mono";
+    background-color: rgba(0,0,0,0.5); 
+    color: white;
+    border-color: transparent;
+    border-width: 8px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: rgba(50,50,50,0.5);
+}
+
+button:focus {
+    background-color: rgb(231, 231, 231);
+    color: black;
 }
